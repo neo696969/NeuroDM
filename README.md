@@ -1,4 +1,4 @@
-# NeuroDM - Mass DM Bot (Just for Learning, Don’t Be Weird)
+# NeuroDM - Mass DM Bot (Educational Purposes Only)
 
 > Basically, it’s a Discord mass DM bot built with Discord.js, lets you hit up folks using a bunch of tokens at once. For *testing* and *learning* only, alright? No funny business.
 
