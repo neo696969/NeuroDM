@@ -18,7 +18,6 @@ const { tokens, prefix, message } = config;
 
 const { cyan, red, greenBright, yellow } = chalk;
 
-// ... then your bot code continues exactly like before
 
 
 console.clear();
