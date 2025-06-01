@@ -1,0 +1,9 @@
+{
+  "tokens": [
+    "token1_here",
+    "token2_here",
+    "add more tokens here"
+  ],
+  "prefix": "$",
+  "message": "message here"
+}
