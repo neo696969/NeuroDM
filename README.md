@@ -1,84 +1,89 @@
 
 # NeuroDM - Mass DM Bot (Educational Use Only)
 
-> A multi-token Discord bot for educational testing, showcasing automated DM systems using Node.js and Discord.js.
+> A multi-token mass DM bot using Discord.js, made for testing and educational purposes.
 
 [![Node.js Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
 
-NeuroDM is a modular and easy-to-use mass DM bot that sends automated direct messages using multiple Discord tokens. This project is **strictly for educational purposes**, such as testing spam filters or learning how async message queues work. It is **not intended** for malicious use.
+NeuroDM is a Node.js-powered mass direct messaging bot designed for Discord. It utilizes multiple tokens to send messages concurrently. This tool is for **educational and ethical testing only** (e.g. testing filters, learning async code, or just messing around **offline**).
+
+![](header.png)
 
 ---
 
-⚠️ **Disclaimer:** This tool is for **educational and ethical testing only**. The author is **not responsible** for any misuse, abuse, or violations of Discord’s Terms of Service.
-**Don't be a skibidi criminal.**
+⚠️ **Disclaimer:**
+This tool is provided **strictly for educational purposes**. The creator does **not condone** or support any form of abuse, spam, or terms of service violations on Discord.
+**Don’t be a skibidi menace. Use responsibly.**
 
 ---
 
-## 🚀 Installation
+## 🛠️ Installation
 
-> Requires **Node.js v18+**
+> Requires Node.js v18+
 
-### Linux/macOS
-
-```sh
-git clone https://github.com/neo696969/NeuroDM.git
-cd NeuroDM
-cd src
-npm install
-```
-
-### Windows
+### 1. Download the source code
 
 ```sh
-git clone https://github.com/neo696969/NeuroDM.git
-cd NeuroDM
-cd src
-npm install
+git clone https://github.com/yourname/NeuroDM.git
 ```
 
-Then edit `config.json` to set:
+### 2. Run the installer
 
-* `tokens`: An array of your Discord bot tokens
-* `prefix`: The command prefix
-* `message`: The message to be spammed
+```sh
+install.bat
+```
+
+This will automatically navigate to the `src` folder and install all dependencies with `npm install`.
 
 ---
 
-## 💥 Usage Example
+## 🚀 Running the Bot
 
-Run the bot:
-
-```sh
-node index.js
-```
-
-Once active, send this command from a Discord channel where your bot is present:
+After installing, simply run:
 
 ```sh
-<prefix>dm <userID>
+start.bat
 ```
 
-The bot will begin **spamming that user’s DMs infinitely** until you shut down the application (`CTRL + C`).
+It’ll launch the bot with a cool ASCII logo and run `index.js`.
 
-> Change the spam message in `config.json`. Add more tokens to scale faster.
+---
 
-*For more advanced examples and tips, check the [Wiki][wiki].*
+## ⚙️ Config Setup
+
+Edit `config.json` inside the `src` folder with:
+
+```json
+{
+  "tokens": ["TOKEN1", "TOKEN2"],
+  "prefix": "$",
+  "message": "yo this is a DM from NeuroDM"
+}
+```
+
+Use the prefix to trigger commands like:
+
+```sh
+$dm <userID>
+```
+
+It’ll start DM spamming that user using your list of tokens.
+(Press `CTRL + C` to stop the madness.)
 
 ---
 
 ## 🧑‍💻 Development Setup
 
-```sh
-# Install all dependencies
-npm install
+For nerds who want to customize or expand it:
 
-# Run the bot
+```sh
+cd src
+npm install
 node index.js
 ```
 
-Optional: Add logging, rate limit handlers, or even proxy rotation if you're into the nerdy stuff.
+You can add logging, delay controls, rate-limit handling, or even token rotation. Go wild (ethically).
 
 ---
 
@@ -86,18 +91,23 @@ Optional: Add logging, rate limit handlers, or even proxy rotation if you're int
 
 * 1.0.0
 
-  * First public open-source release
-  * Added infinite DM loop
-  * Multi-token support
-* 0.9.0
+  * Initial open-source release
+  * DM spamming with multi-token support
+  * Batch installation and startup via `.bat` files
 
-  * Beta release with 10-message cap
 
 ## 🤝 Contributing
 
-1. Fork it ([https://github.com/neo696969/NeuroDM/fork](https://github.com/neo696969/NeuroDM/fork))
-2. Create your feature branch (`git checkout -b feature/cool-feature`)
-3. Commit your changes (`git commit -am 'Add a cool feature'`)
-4. Push to the branch (`git push origin feature/cool-feature`)
-5. Create a new Pull Request
+1. Fork this repo ([https://github.com/yourname/NeuroDM/fork](https://github.com/yourname/NeuroDM/fork))
+2. Create your feature branch (`git checkout -b feature/something`)
+3. Commit your changes (`git commit -am 'Add something'`)
+4. Push to the branch (`git push origin feature/something`)
+5. Create a Pull Request
 
+---
+
+<!-- Badges -->
+
+[npm-image]: https://img.shields.io/node/v/discord.js.svg?style=flat-square
+[npm-url]: https://nodejs.org/
+[npm-downloads]: https://img.shields.io/npm/dm/discord.js.svg?style=flat-square
