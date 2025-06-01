@@ -7,12 +7,10 @@
 
 NeuroDM runs on Node.js and can blast out DMs to Discord users using several tokens at the same time. Again, this is for people wanting to mess with async code, poke at Discord’s filters, or just tinker offline. Don’t use it to spam. Seriously.
 
-![](header.png)
-
 ---
 
 ⚠️ **Heads up:**  
-This bot’s just for educational shenanigans. No spamming, no breaking Discord’s rules, no “skibidi” nonsense, okay? Whatever you do, it’s on you—not me.
+This bot’s just for educational shenanigans. No spamming, no breaking Discord’s rules, Whatever you do, it’s on you—not me.
 
 ---
 
