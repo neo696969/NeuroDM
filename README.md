@@ -21,7 +21,7 @@ This bot’s just for educational shenanigans. No spamming, no breaking Discord�
 ### 1. Grab the code
 
 ```sh
-git clone https://github.com/yourname/NeuroDM.git
+git clone https://github.com/neo696969/NeuroDM.git
 ```
 
 ### 2. Install the stuff
@@ -97,7 +97,7 @@ Go nuts. Add logging, throw in delays, juggle tokens, handle rate limits—whate
 
 ## 🤝 Wanna Contribute?
 
-1. Fork it ([https://github.com/yourname/NeuroDM/fork](https://github.com/yourname/NeuroDM/fork))
+1. Fork it ([https://github.com/neo696969/NeuroDM/fork](https://github.com/neo696969/NeuroDM/fork))
 2. Make a feature branch (`git checkout -b feature/cool-stuff`)
 3. Do your thing (`git commit -am 'Made it better'`)
 4. Push it up (`git push origin feature/cool-stuff`)
