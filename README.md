@@ -52,10 +52,15 @@ Open up `config.json` in the `src` folder. Looks like this:
 
 ```json
 {
-  "tokens": ["TOKEN1", "TOKEN2"],
+  "tokens": [
+    "token1_here",
+    "token2_here",
+    "add more tokens here"
+  ],
   "prefix": "$",
-  "message": "yo this is a DM from NeuroDM"
+  "message": "message here"
 }
+
 ```
 
 Use the prefix to run stuff like:
