@@ -34,7 +34,7 @@ console.log(yellow(`
          ░    ░  ░   ░        ░         ░ ░     ░           ░   
                                               ░                 
 
-                      NeuroDM - Neo Edition
+                      NeuroDM - Free Edition
           Use command: ${prefix}dm <userID> to spam DMs
 
 `));
